@@ -3,7 +3,8 @@ mkdir zero_day
 cd zero_day
 git add .
 cd ..
-touch "Markdown" > README.md
+touch README.md
+echo Markdown > README.md
 git add .
 git commit -m "My first commit"
 git push
